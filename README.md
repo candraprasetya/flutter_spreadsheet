@@ -63,6 +63,10 @@ In this project, we had the opportunity to try one of the frameworks for UI desi
 
 the first step to starting the project is to prepare the following requirements.
 
+### Prerequisites
+* [Spreadsheet Example](https://docs.google.com/spreadsheets/d/1He_jTIkHTBEfPp1W5v6sl3y1j0uI92zGg6ZR96Kfx3Y/edit?usp=sharing)
+* [Scripts Example](https://script.google.com/d/1SZlCDqoTWBGmvF6EPZvLkScL-3IrrSBTLUgl5h7_5vQSiLVSAi4eIWNx/edit?usp=sharing)
+
 ### Installation
 
 1. Clone the repo and move to main branch
