@@ -80,22 +80,22 @@ the first step to starting the project is to prepare the following requirements.
 
 6. Make a scripts
    ```sh
-   function doGet(request) {
-  var sheet = SpreadsheetApp.openById(YOUR ID); //Ex : "1He_jTIkHTBEfPp1W5v6sl3y1j0uI92zGg6ZR96Kfx3Y"
-  var result = {"status":"SUCCESS"};
+    function doGet(request) {
+    var sheet = SpreadsheetApp.openById(YOUR ID); //Ex : "1He_jTIkHTBEfPp1W5v6sl3y1j0uI92zGg6ZR96Kfx3Y"
+    var result = {"status":"SUCCESS"};
 
-  try{
+   try{
     var name = request.parameter.name; //your column name on spreadsheet
     var email = request.parameter.email;
     var rowData = sheet.appendRow([name, email]);
-  }catch(e){
+   }catch(e){
     result = {"status" : "FAILED", "message" : e};
-  }
+    }
 
-  return ContentService.createTextOutput(JSON.stringify(result)).setMimeType(ContentService.MimeType.JSON);
-
-}
-  ```
+   return ContentService.createTextOutput(JSON.stringify(result)).setMimeType(ContentService.MimeType.JSON);
+  
+    }
+   ```
 
 
 <!-- CONTRIBUTING -->
